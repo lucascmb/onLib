@@ -10,7 +10,7 @@
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* --out-dir='dist/img'",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin main.html -d dist --htmlmin -o dist/main.html && usemin register.html -d dist --htmlmin -o dist/register.html && usemin writing.html -d dist --htmlmin -o dist/writing.html",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin main.html -d dist --htmlmin -o dist/main.html && usemin register.html -d dist --htmlmin -o dist/register.html && usemin writing.html -d dist --htmlmin -o dist/writing.html"
   },
   "repository": {
     "type": "git",
