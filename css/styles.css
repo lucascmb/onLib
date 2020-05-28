@@ -1,0 +1,75 @@
+.btn-logIn{
+    position : absolute !important;
+    right:0px !important;
+    top:0px !important;
+}
+
+.row-header{
+    height: 650px;
+}
+
+.row-content{
+    height: 650px;
+}
+
+h1, h2{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.view{
+    height : 100%;
+    background-image: url('../img/books.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.mview{
+    height : 650px;
+    background-image: url('../img/lib.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.register-view{
+    height : 1000px;
+    min-height: 100%;
+    background-image: url('../img/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 200%;
+}
+
+@media (max-width: 767px) {
+    .mview{
+        height : 100%;
+    }
+    .card{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+btn, p{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.carousel-item{
+    height: 650px;
+}
+
+.carousel-fixed-text{
+    position: absolute;
+    margin : auto;
+    z-index: 1;
+}
+
+.carousel-box{
+    height: 650px;
+}
+
+.btn-register{
+    font-family: 'Courier New', Courier, monospace;
+}

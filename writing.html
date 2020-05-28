@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>OnLib</title>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="node_modules/wowjs/css/libs/animate.css">
+    <link rel="stylesheet" href="css/writing.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="sidebar bg-dark col-sm-3 wow fadeInDownBig">
+                <div class="row form-group mt-5">
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="title" name="title" placeholder="Story Title">
+                    </div>
+                </div>
+                <div class="row form-group mt-5">
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="chaptername" name="chaptername" placeholder="Chapter Name">
+                    </div>
+                </div>
+                <div class="row form-group mt-5">
+                    <div class="col-12">
+                        <textarea class="form-control" id="description" name="description" placeholder="Description" rows = "10"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row mt-5">
+                    <div class="col-12">
+                        <label for="genre" class="text-white">Select Genre</label>
+                        <select class="form-control" id="genre">
+                          <option>Romance</option>
+                          <option>SciFi</option>
+                          <option>Terror</option>
+                          <option>Fanfic</option>
+                          <option>Police</option>
+                        </select>
+                    </div>
+                  </div>
+                <div class="row form-group d-flex justify-content-center mt-5">
+                    <div class="">
+                        <button class="btn btn-success btn-register onLibFont"><a class="text-white onLibFont"  href="/main.html"><span class="fa fa-step-backward">  Back</span></a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container row-content">
+        <div class="row wow fadeInRightBig">
+            <div class="offset-3">
+                <div class="row form-group mt-5">
+                    <div class="col-12">
+                        <textarea class="form-control" id="description" name="description" placeholder="" rows = "30" cols="150"></textarea>
+                    </div>
+                </div>
+                <div class="row form-group d-flex justify-content-center mt-5">
+                    <div class="">
+                        <button class="btn btn-success btn-register onLibFont"><a class="text-white onLibFont"  href="/main.html">Submit</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/wowjs/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+
+</html>

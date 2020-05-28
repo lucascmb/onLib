@@ -1,0 +1,19 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left : 0;
+    z-index: 2;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.onLibFont {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color : rgba(70, 163, 194, 1);
+}
